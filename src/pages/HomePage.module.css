@@ -1,27 +1,59 @@
 .content_card {
+  width: 80%;
+  margin: 0 auto;
+  background-color: #efefef;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  width: 100%;
   box-sizing: border-box;
 }
 
-.content_card>img {
-  width: 50%;
+.logoplanet {
+  width: 40%;
+  min-width: 300px;
   margin-top: 30px;
   margin-bottom: 30px;
   pointer-events: none;
   border-radius: 20px;
 }
 
-.content_text_area {
-  width: 500px;
-
+.frentedecasa {
+  width: 60%;
+  min-width: 300px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  pointer-events: none;
+  border-radius: 20px;
 }
 
+.content_text_area>p,
 .content_text_area>h2 {
+  width: 360px;
+  margin-bottom: 40px;
+  font-family: 'Oregano', cursive;
+  color: #26158A;
+}
+
+.content_text_area_2>p, 
+.content_text_area_2>h2{
+  width: 360px;
+  margin-bottom: 40px;
+  font-family: 'Oregano', cursive;
+  color: #26158A;
+  text-align: right;
+}
+
+.content_text_area_2>p,
+.content_text_area>p {
+  font-size: 1.2em;
+  text-shadow: 0.6px 0.6px 15px #19191938;
+}
+
+.content_text_area>h2,
+.content_text_area2>h2 {
+  margin-top: 40px;
   margin-left: 30px;
   margin-bottom: 26px;
 }
