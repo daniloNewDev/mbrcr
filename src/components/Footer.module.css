@@ -1,5 +1,6 @@
 .footer {
   width: 100%;
+  min-width: 450px;
   height: 100px;
   background-image: linear-gradient(130deg, #00416A, #1B5581, #4475A6, #1b5581);
   display: flex;
