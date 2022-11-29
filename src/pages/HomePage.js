@@ -8,9 +8,10 @@ function HomePage() {
       <div className={styles.content_text_area}>
       <h2>O Instituto</h2>
       <p>
-        O Instituto da Criança é uma solução para promover o desenvolvimento
+        O Instituto da <strong>O Melhor da Brasilândia é a Criança</strong> 
+        é uma solução para promover o desenvolvimento
         humano. Por meio do investimento social privado e da gestão de projetos,
-        a organização inspira a prática da solidariedade. Com 28 anos de
+        a organização inspira a prática da solidariedade. Com 5 anos de
         história, o Instituto funciona como uma via de aproximação entre pessoas
         físicas e jurídicas que têm condições e vontade de contribuir, contudo
         não sabem como fazer este investimento chegar a quem realmente precisa.
