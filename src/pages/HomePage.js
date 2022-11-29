@@ -1,5 +1,6 @@
 import logoplaneta from "../components/img/logo-planeta.png";
 import frentedecasa from "../components/img/atividadenarua.png";
+import donation from "../components/img/donation.png";
 import styles from "./HomePage.module.css";
 
 function HomePage() {
@@ -25,6 +26,16 @@ function HomePage() {
           </p>
         </div>
         <img className={styles.frentedecasa} src={frentedecasa} alt="Logotipo Planeta OMBR" />
+      </div>
+
+      <div className={styles.content_card}>
+        <img className={styles.logoplanet} src={donation} alt="Logotipo Planeta OMBR" />
+        <div className={styles.text_donation}>
+          <h2>Saiba como contribuir com nossa ação!!!</h2>
+          <p>
+            Dê força ao nosso projeto, seja um parceiro, seja também um agente que promove a mudança, que promove o progresso! Seja com alimentos para distribuição, brinquedos em bom estado, roupas em bom estado e também recursos, dos quais farão a grande diferença!!!
+          </p>
+        </div>
       </div>
 
     </>
