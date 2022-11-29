@@ -4,6 +4,8 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .content_card>img {
@@ -15,7 +17,8 @@
 }
 
 .content_text_area {
-  width: 50%;
+  width: 500px;
+
 }
 
 .content_text_area>h2 {
