@@ -6,8 +6,8 @@ import styles from "./HomePage.module.css";
 function HomePage() {
   return (
     <>
-      <div className={styles.content_card}>
-        <img className={styles.logoplanet} src={logoplaneta} alt="Logotipo Planeta OMBR" />
+      <div className={styles.content_card_tr}>
+        <img className={styles.picture_left} src={logoplaneta} alt="Logotipo Planeta OMBR" />
         <div className={styles.content_text_area}>
           <h2>O Instituto e a Comunidade</h2>
           <p>
@@ -18,19 +18,19 @@ function HomePage() {
         </div>
       </div>
 
-      <div className={styles.content_card}>
+      <div className={styles.content_card_tl}>
         <div className={styles.content_text_area_2}>
           <h2>Acesso ao Lazer em frente de Casa!</h2>
           <p>
             Neste dia das Crianças o que não vai faltar é atividade! Muita música, brinquedos como Pula-pula, piscina de bolinhas, Cama-Elástica. Animadores vestidos de Personagens, alimentação, além de todo apoio da Equipe de Primeiros-Socorros e nossos colaboradores. Venham fazer parte e doar conhecimento e ajuda para que juntos possamos continuar transformando nossa comunidade com vida!
           </p>
         </div>
-        <img className={styles.frentedecasa} src={frentedecasa} alt="Logotipo Planeta OMBR" />
+        <img className={styles.picture_right} src={frentedecasa} alt="Logotipo Planeta OMBR" />
       </div>
 
-      <div className={styles.content_card}>
-        <img className={styles.logoplanet} src={donation} alt="Logotipo Planeta OMBR" />
-        <div className={styles.text_donation}>
+      <div className={styles.content_card_tr}>
+        <img className={styles.picture_left} src={donation} alt="Logotipo Planeta OMBR" />
+        <div className={styles.content_text_area}>
           <h2>Saiba como contribuir com nossa ação!!!</h2>
           <p>
             Dê força ao nosso projeto, seja um parceiro, seja também um agente que promove a mudança, que promove o progresso! Seja com alimentos para distribuição, brinquedos em bom estado, roupas em bom estado e também recursos, dos quais farão a grande diferença!!!

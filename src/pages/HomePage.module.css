@@ -1,4 +1,4 @@
-.content_card {
+.content_card_tr {
   width: 80%;
   margin: 0 auto;
   background-color: #efefef;
@@ -9,8 +9,19 @@
   justify-content: center;
   box-sizing: border-box;
 }
+.content_card_tl {
+  width: 80%;
+  margin: 0 auto;
+  background-color: #efefef;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
 
-.logoplanet {
+.picture_left {
   width: 40%;
   min-width: 300px;
   margin-top: 30px;
@@ -19,7 +30,7 @@
   border-radius: 20px;
 }
 
-.frentedecasa {
+.picture_right {
   width: 60%;
   min-width: 300px;
   margin-top: 30px;
@@ -27,6 +38,7 @@
   pointer-events: none;
   border-radius: 20px;
 }
+
 
 .content_text_area>p,
 .content_text_area>h2 {
@@ -54,26 +66,9 @@
 
 
 .content_text_area>h2,
-.content_text_area2>h2,
-.text_donation {
+.content_text_area2>h2 {
   margin-top: 40px;
   margin-left: 30px;
   margin-bottom: 26px;
 }
 
-.text_donation>h2,
-.text_donation>p {
-  width: 360px;
-  margin-bottom: 40px;
-  font-family: 'Oregano', cursive;
-  color: #26158A;
-  text-align: left;
-}
-
-.text_donation>h2 {
-  font-size: 2.2em;
-}
-
-.text_donation>p {
-  font-size: 1.6em;
-}
